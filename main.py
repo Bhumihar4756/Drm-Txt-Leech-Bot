@@ -158,6 +158,10 @@ async def remove_channel(client, message: Message):
         await message.reply_text("Invalid command format. Use: /remove_channels <channel_id>")
 
 # Upload command handler
+@bot.on_message(filters.command("stop"))
+async def restart_handler(_, m):
+    await m.reply_text("Ruk Gya Bhumihar ji ☺🚦", True)
+    os.execl(sys.executable, sys.executable, *sys.argv)
 @bot.on_message(filters.command(["upload"]))
 async def upload(bot: Client, m: Message):
     editable = await m.reply_text('𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐒𝐞𝐧𝐝 𝐇𝐞𝐫𝐞 📄')
