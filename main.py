@@ -26,12 +26,12 @@ from pyrogram.types.messages_and_media import message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Environment variables for API credentials
-API_ID = os.environ.get("API_ID", "23634056")
-API_HASH = os.environ.get("API_HASH", "f2debf49c2f57bad88086ecd17cb5df3")
+API_ID = os.environ.get("API_ID", "20114039")
+API_HASH = os.environ.get("API_HASH", "87297b8f3cc8fc9bbce591ad30da5896")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 # Define the owner's user ID
-OWNER_ID = 5082207960   # Replace with the actual owner's user ID
+OWNER_ID = 8172163893  # Replace with the actual owner's user ID
 
 
 # Initialize the bot
