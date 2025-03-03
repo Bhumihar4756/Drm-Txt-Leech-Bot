@@ -183,7 +183,7 @@ async def download_video(url,cmd, name):
 
 
 async def send_doc(bot: Client, m: Message,cc,ka,cc1,prog,count,name):
-    reply = await m.reply_text(f"Uploading » `{name}`")
+    reply = await m.reply_text(f"Uploading » `{name}`\n\n 𝐁𝐎𝐓 𝐌𝐀𝐃𝐄 𝐁𝐘:◦•●◉✿BHUMIHAR✿◉●•◦")
     time.sleep(1)
     start_time = time.time()
     await m.reply_document(ka,caption=cc1)
