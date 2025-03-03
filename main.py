@@ -162,7 +162,7 @@ async def remove_channel(client, message: Message):
 async def restart_handler(_, m):
     await m.reply_text("Ruk Gya Bhumihar ji ☺🚦", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
-@bot.on_message(filters.command(["upload"]))
+@bot.on_message(filters.command(["bhumihar"]))
 async def upload(bot: Client, m: Message):
     editable = await m.reply_text('𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐒𝐞𝐧𝐝 𝐇𝐞𝐫𝐞 📄')
     input: Message = await bot.listen(editable.chat.id)
